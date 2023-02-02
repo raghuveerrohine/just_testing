@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+
+     
+}
+
+nav {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #362c2c;
+    align-items: center;
+    flex-direction: row;
+    flex: auto;
+    column-gap: 2px;
+}
+
+.login {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        color: #ff5e00a6;
+
+}
+.signup {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        color: #ff5e00a6;
+}
+.products,
+.about {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        color: #ff5e00a6;
+}
+.brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: #ff5e00a6;
+    margin-left: auto;
+}
+.last{
+    margin-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        color: #ff5e00a6;
+        animation: fade2 3s;
+}
+ @keyframes fade {
+     0% {
+         opacity: 0;
+         position: relative;
+         top: 160vh;
+     }
+     100% {
+         opacity: 1;
+         position: relative;
+         top: 0vh;
+     }
+ }
+ .secondlast{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        color: #ff5e00a6;
+        animation: fade2 3s;
+ }
+  @keyframes fade2 {
+      0% {
+          opacity: 0;
+          position: relative;
+          left: 160vh;
+        animation-delay: 5s;
+      }
+      100% {
+          opacity: 1;
+          position: relative;
+          left: 0vh;
+        animation-delay: 5s;
+      }
+  }
+.thirdlast{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: #ff5e00a6;
+    animation: fade2 3s;
+}

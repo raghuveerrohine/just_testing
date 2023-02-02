@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    
+    align-items: center;
+   flex-direction: row;
+   flex: auto;
+    column-gap: 25px;
+    
+}
+.login{
+ margin-left: auto;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bolder;
+
+}
+.signup{
+font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding: 5px;
+}
+.products,.about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.brand{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: #ff5e00a6;
+   
+}
+ 
+ 
+ 
+ 
